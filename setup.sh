@@ -48,7 +48,7 @@ AZURE_CREDENTIALS=$(cat <<EOF
 EOF
 )
 
-APP_NAME="lab5app$random" # generate a unique app name
+APP_NAME="lab5app$RANDOM" # generate a unique app name
 
 echo "export APP_NAME=$APP_NAME" >> .env # store APP_NAME in .env
 
